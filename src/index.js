@@ -1,13 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import {
+  BrowserRouter,
+  Switch,
+  Routes,
+  Route
+} from 'react-router-dom';
+import './index.scss';
 import App from './App';
+// import "../node_modules/bootstrap/";
+import "../node_modules/bootstrap/dist/js/bootstrap";
 import reportWebVitals from './reportWebVitals';
+import ProductDetails from './pages/product_details/ProductDetails';
+import { default as ProductList } from './pages/product_list/ProductList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<App />}>
+        </Route>
+        <Route path='/:id' element={<ProductDetails />}></Route>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

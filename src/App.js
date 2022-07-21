@@ -1,14 +1,9 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
-import { useState, useEffect } from 'react';
 import ProductCard from './components/ProductCard';
 import Navbar from './common/navbar/Navbar';
 import Footer from './common/footer/Footer';
-import ProductList from './pages/product_list/ProductList';
-import ProductDetails from './pages/product_details/ProductDetails';
 import banner_img from './images/tv-img1.png';
 import './App.scss';
-import axios from 'axios';
 import { useAxiosGet } from './Hooks/HttpRequests';
 
 

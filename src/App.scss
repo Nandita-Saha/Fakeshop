@@ -74,6 +74,11 @@ $white: #ffffff;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 1rem;
+    transition: 0.3s;
+
+    &:hover {
+      box-shadow: 0 10px 15px #cacaca;
+    }
 
     .product-img-container {
       display: inline-flex;
@@ -292,6 +297,12 @@ footer {
       color: $grey;
     }
   }
+}
+
+.product-link {
+  color: none;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 

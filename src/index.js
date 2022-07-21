@@ -12,7 +12,7 @@ import App from './App';
 import "../node_modules/bootstrap/dist/js/bootstrap";
 import reportWebVitals from './reportWebVitals';
 import ProductDetails from './pages/product_details/ProductDetails';
-import { default as ProductList } from './pages/product_list/ProductList';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

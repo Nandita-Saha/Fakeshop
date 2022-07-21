@@ -52,9 +52,13 @@ $white: #ffffff;
     margin-bottom: 30px;
   }
 
+  .bottom {
+    text-decoration: none;
+    color: none;
+  }
+
   .explore {
     @extend %btn_style;
-
   }
 }
 

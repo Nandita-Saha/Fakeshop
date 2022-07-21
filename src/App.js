@@ -37,12 +37,14 @@ function App() {
             </div>
             <div className="col-lg-5 col-md-5 col-sm-12 mt-auto mb-auto">
               <h1>One Stop destination of your essentials.</h1>
-              <button className="explore d-block">Explore Products</button>
+              <a href='#bottom' className="bottom">
+                <button className="explore d-block">Explore Products</button>
+              </a>
             </div>
           </div>
         </div>
       </section>
-      <section className="product-list">
+      <section id='bottom' className="product-list">
         <div className="container-fluid">
           <h2>Explore Products</h2>
           <div className="row">

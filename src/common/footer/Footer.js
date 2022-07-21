@@ -7,7 +7,7 @@ function Footer() {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-lg-5 col-md-5 col-sm-12">
-                        <a className="navbar-brand" href="#">
+                        <a className="navbar-brand" href="/">
                             <img src={logo} alt="logo"></img>
                         </a>
                         <ul className="footer-list">
